@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'PlusJakartaSans'; 
+    src: url('./PlusJakartaSans-Medium.ttf') format('truetype'); /* Ruta relativa o absoluta de tu archivo .ttf */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PlusJakartaSans', sans-serif;
+}
+
+#simulator{
+    width: 100%;
+    max-width: 1300px;
+    padding: 50px 60px;
+    border: 1px solid #dde0e8;
+    margin: 100px auto;
+    box-shadow: 0 0 3em #dfdfdf;
+}
+
+h1{
+    font-size: 34px;
+    font-weight: 700;
+    color: #12303F;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #D9DB32;
+}
+
+.cont-flex{
+    width: 100%;
+    display: flex;
+}
+
+.left,
+.right{
+    width: 50%;
+    padding: 40px 20px;
+}
+
+
+
+h2{
+    color: #202d37;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+
+.left p{
+    margin-bottom: 30px;
+    color: #2f3c46;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.group-data.two-columns{
+    width: 50%;
+    box-sizing: border-box;
+}
+.group-data.one-column{
+    width: 100%;
+}
+
+.group-data.three-columns{
+    width: 60%;
+}
+
+.group-data.four-columns{
+    width: 40%;
+}
+
+.group-data{
+    padding-right: 16px;
+}
+.group-data label{ 
+    display: block;
+    margin-bottom: 10px;
+    color: #202d37;
+}
+.group-data input,
+.group-data select{
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+} 
+
+.form button{
+    display: block;
+    font-weight: bold;
+    width: 97%;
+    padding: 14px 80px;
+    background: #D9DB32;
+    color: #12303F;
+    border: 1px solid #D9DB32;
+    transition: .4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.form button:hover{
+    background: #12303F;
+    border: 1px solid #12303F;
+    color: #D9DB32;
+}
+
+input, select{
+    padding: 14px 30px;
+    border: 0;
+    border: 1px solid #12303F;
+    border-radius: 5px;
+    outline: none;
+}
+input::placeholder {
+    color: #000; /* Cambia este valor al color que desees */
+}
+
+.right .pre-simulation{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #12303F;
+    border-radius: 20px;
+}
+
+.right img{
+    max-width: 100%;
+}
+
+.right .post-simulation {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0 60px;
+}
+
+.post-simulation.disabled,
+.pre-simulation.disabled {
+    display: none;
+}
+
+.right .post-simulation h3{
+    color: #202d37;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.right .post-simulation h3 span{
+    color: #12303F;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.right .total{
+    background: #12303F;
+    border-radius: 20px;
+    padding: 30px;
+    color: #ffffff;
+}
+
+.right .total h4{
+    font-size: 28px;
+}
+
+
+.right .total h2{
+    font-size: 36px;
+    padding: 14px 0;
+    color: #FFFFFF;
+}
+
+.total p{
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.total p span{
+    font-weight: 600;
+}
+
+.notificacion{
+    padding: 20px;
+    border: 1px solid #D9DB32;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.notificacion h5{
+    font-weight: 400;
+}
+
+.notificacion h5 span{
+    font-weight: 700;
+}
