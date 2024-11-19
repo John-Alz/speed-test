@@ -48,14 +48,14 @@ switch (campoTiempo) {
         aniosMeses = campoTiempo * 12;
         interes = 0.013;
         meses.textContent = `${aniosMeses} Meses`;
-        intereses.textContent = "0.8%";
+        intereses.textContent = "1.3%";
         break;
     case 3:
         console.log("1.7%")
         aniosMeses = campoTiempo * 12;
         interes = 0.017;
         meses.textContent = `${aniosMeses} Meses`;
-        intereses.textContent = "0.8%";
+        intereses.textContent = "1.7%";
         break;
     default:
         console.log("Default");
